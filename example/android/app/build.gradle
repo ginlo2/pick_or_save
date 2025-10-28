@@ -26,7 +26,7 @@ android {
     namespace "com.deepanshuchaudhary.pick_or_save_example"
 
     defaultConfig {
-        compileSdk 34
+        compileSdk 36
     }
 
     ndkVersion flutter.ndkVersion
@@ -50,7 +50,7 @@ android {
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
